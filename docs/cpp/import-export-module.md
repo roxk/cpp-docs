@@ -40,12 +40,13 @@ namespace Bar
 }
 ```
 
-Non-exported names are not visible to code that imports the module:
+Non-exported names are not visible to code that 
+s the module:
 
 ```cpp
 //MyProgram.cpp
 
-import module ModuleA;
+import ModuleA;
 
 int main() {
   Bar::f(); // OK
